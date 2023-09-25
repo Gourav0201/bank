@@ -28,6 +28,11 @@ if(session:ready()) then
                                          else
                                                 --  session:execute("playback","/usr/local/freeswitch/sounds/en/us/callie/ivr/16000/ivr-invalid_number_format.wav")
                                                  count=count+1
+                                                 if ()then(
+                                                        print("gaurav")
+                                                )
+                                        end
+                                                 )
 
                                          end
                                  end
