@@ -26,7 +26,7 @@ if(session:ready()) then
                                                  break
 
                                          else
-                                                 session:execute("playback","/usr/local/freeswitch/sounds/en/us/callie/ivr/16000/ivr-invalid_number_format.wav")
+                                                --  session:execute("playback","/usr/local/freeswitch/sounds/en/us/callie/ivr/16000/ivr-invalid_number_format.wav")
                                                  count=count+1
 
                                          end
@@ -36,6 +36,7 @@ if(session:ready()) then
                          session:hangup()
                 --       red:quit
                  end
+                 -- hrdsadadcascaddadagit 
 
 
 
