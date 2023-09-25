@@ -35,6 +35,7 @@ if(session:ready()) then
                  else
                          session:hangup()
                 --       red:quit
+                session:execute("sleep","10000")
                  end
                  -- hrdsadadcascaddadagit 
 
